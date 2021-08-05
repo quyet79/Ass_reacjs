@@ -1,0 +1,98 @@
+{
+  "products": [
+    {
+      "name": "Váy nữ đen",
+      "price": 86000,
+      "status": 1,
+      "link": "https://i.pinimg.com/originals/b6/3e/fb/b63efb97aaacb5ddbfc93da83db3a8d9.png",
+      "detail": "THÔNG TIN SẢN PHẨM: Thương Hiệu: Chanel Phong Cách: Váy đen đẹp Xuất Xứ: Quảng Châu Màu Sắc: Như hình Kích Thước: S-XL",
+      "id": "1"
+    },
+    {
+      "name": "Áo nữ trắng",
+      "price": "80000",
+      "status": 1,
+      "link": "https://filebroker-cdn.lazada.vn/kf/S703c8d87c21a4e88a89b1bf4b5c58651L.jpg",
+      "detail": "THÔNG TIN SẢN PHẨM: Thương Hiệu: Chanel Phong Cách: Áo đẹp Xuất Xứ: Quảng Châu Màu Sắc: Như hình Kích Thước: S-XL",
+      "id": "2"
+    },
+    {
+      "name": "Áo hồng",
+      "price": "66000",
+      "status": "0",
+      "link": "https://sg-live-02.slatic.net/p/8b2b843ed983c062315d936ddff880ce.png",
+      "detail": "THÔNG TIN SẢN PHẨM: Thương Hiệu: Chanel Phong Cách: Áo thun  đẹp Xuất Xứ: Quảng Châu Màu Sắc: Như hình Kích Thước: S-XL",
+      "id": "3"
+    },
+    {
+      "name": "Áo nữ đen đẹp",
+      "price": "56000",
+      "status": 1,
+      "link": "https://i.pinimg.com/originals/6d/e2/12/6de2123013685fad25e3ecf033c51701.png",
+      "detail": "THÔNG TIN SẢN PHẨM: Thương Hiệu: Chanel Phong Cách: Áo thun Xuất Xứ: Quảng Châu Màu Sắc: Như hình Kích Thước: S-XL",
+      "id": "4"
+    },
+    {
+      "name": "Áo nam tay lỡ",
+      "price": 86000,
+      "status": 1,
+      "link": "https://sobyn.com/wp-content/uploads/2020/03/%C3%A1o-thun-nam-h%C3%A0ng-hi%E1%BB%87u-chanel-si%C3%AAu-c%E1%BA%A5p.jpeg",
+      "detail": "THÔNG TIN SẢN PHẨM: Thương Hiệu: Chanel Phong Cách: Áo thun cộc tay đẹp Xuất Xứ: Quảng Châu Màu Sắc: Như hình Kích Thước: S-XL",
+      "id": "5"
+    },
+    {
+      "name": "Áo nam tay lỡ",
+      "price": 86000,
+      "status": 1,
+      "link": "https://sobyn.com/wp-content/uploads/2020/03/%C3%A1o-thun-nam-h%C3%A0ng-hi%E1%BB%87u-chanel-si%C3%AAu-c%E1%BA%A5p.jpeg",
+      "detail": "THÔNG TIN SẢN PHẨM: Thương Hiệu: Chanel Phong Cách: Áo thun cộc tay đẹp Xuất Xứ: Quảng Châu Màu Sắc: Như hình Kích Thước: S-XL",
+      "id": "6"
+    },
+    {
+      "name": "Áo nam ",
+      "price": 86000,
+      "status": 1,
+      "link": "https://sobyn.com/wp-content/uploads/2020/03/%C3%A1o-thun-nam-h%C3%A0ng-hi%E1%BB%87u-chanel-si%C3%AAu-c%E1%BA%A5p.jpeg",
+      "detail": "THÔNG TIN SẢN PHẨM: Thương Hiệu: Chanel Phong Cách: Áo thun cộc tay đẹp Xuất Xứ: Quảng Châu Màu Sắc: Như hình Kích Thước: S-XL",
+      "id": "7"
+    },
+    {
+      "id": "db2d2a8c-a14c-44ce-9fe8-205d6a041144",
+      "name": "quyet",
+      "price": "66",
+      "status": "0"
+    }
+  ],
+  "users": [
+    {
+      "email": "datlt2306@gmail.com",
+      "password": "$2a$10$.7htXDqnDnXqZFvunt4OCe9jSkaw11JQ8cxrBtmCrKPezy0The0RW",
+      "username": "datlt2306",
+      "id": 4
+    },
+    {
+      "email": "tunglam1708@gmail.com",
+      "password": "$2a$10$LuBwfk9kuTYuQtdvd/SFvOXfPabdWbeJMjilRDR1WXp8Yii/7wMAy",
+      "username": "tunglam",
+      "id": 2
+    },
+    {
+      "email": "kienabc@gmail.com",
+      "password": "$2a$10$vBiPgAFscDuz1tXJDkpYm.pLV7KSSIktyu5nYJsvgU5huBBUfexmy",
+      "username": "kien",
+      "id": 3
+    },
+    {
+      "email": "quuyyeett@gmail.com",
+      "password": "$2a$10$KgCiyp06g9e4rIdDR4h5lORGRGPd0xh.YMONNPq9S/Av0pBh2MWUe",
+      "username": "quyet79",
+      "id": 1
+    },
+    {
+      "email": "123456@gmail.com",
+      "password": "$2a$10$Q.kPzFJA.5rcDDqshp7gROpdstIzS89XMUAiJGuTZqAwHwQWiTj.K",
+      "username": "minhhieubnzx",
+      "id": 5
+    }
+  ]
+}
