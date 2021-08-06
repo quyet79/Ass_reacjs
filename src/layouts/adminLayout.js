@@ -18,7 +18,7 @@ const AdminLayout = (props) => {
         </div>
         <div className="container-fluid">
           <div className="row">
-              <h1>admin</h1>
+              
             <main>{props.children}</main>
           </div>
         </div>

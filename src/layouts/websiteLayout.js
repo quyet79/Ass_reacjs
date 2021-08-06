@@ -14,7 +14,7 @@ const WebsiteLayout = (props) => {
         <br />
       </div>
       <div>
-          <h1>website</h1>
+          
         <main>{props.children}</main>
       </div>
       <Footer>Footer</Footer>

@@ -7,7 +7,7 @@ const Header = () => {
   const history = useHistory(); // sau khi logout thì quay về trang nào đó
   const { pathname } = useLocation(); // pathname: Để lấy cái đường dẫn sau domain ví dụ: dantri.com/[pathname]
   const [isLogged, setIsLogged] = useState(false); // set state để sau này check trạng thái đã đăng nhập hay chưa
-  const { username, email, sub } = isAuthenticate(); // lấy thông tin từ localStorage: email, id để hiển thị ra ngoài và check quyền
+  const { email, sub } = isAuthenticate(); // lấy thông tin từ localStorage: email, id để hiển thị ra ngoài và check quyền
   useEffect(() => {
     // render sau khi return chạy
     isAuthenticate() && setIsLogged(true); // nếu mà thằng user đăng nhập (có thông tin localStorage) thì set state là true
@@ -17,9 +17,10 @@ const Header = () => {
       // nếu pathname thay đổi (!= signin) và đã đăng nhập
       return (
         <>
-        <Link><a style={{color: "white"}}href="#">
+        <h4 style={{color: "white"}}>Mail Admin:</h4>
+        <Link><h4 style={{color: "white"}}>
           {email}
-        </a></Link>
+        </h4></Link>
           <Link
             className="btn btn-outline-success ms-1"
             style={{ cursor: "pointer" }}
@@ -52,7 +53,7 @@ const Header = () => {
     }
   };
   return (
-    <header className="header">
+    <header className="headerAdmin">
       {/* Fixed navbar */}
       <nav className="position-fixed navbar navbar-expand-md sticky-top navbar-dark fixed-top bg-dark">
         <div className="container-fluid">
@@ -85,7 +86,7 @@ const Header = () => {
                   to="/admin"
                 >
                   <span data-feather="home" />
-                  <h4>View Home</h4>
+                  <h4>ViewHome</h4>
                 </NavLink>
               </li>
               <li className="nav-item">

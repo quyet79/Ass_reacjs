@@ -109,7 +109,7 @@ export default function List(props) {
                   >
                     Edit
                   </Link>
-                  
+                  <i class="fa fa-address-book" aria-hidden="true"></i>
                 </td>
               </tr>
             ))}

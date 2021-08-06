@@ -51,8 +51,8 @@ const Routes = (props) => {
     // </Router>
     <Router>
       <Switch>
-        <Route exact path="/admin/:path?/:path?/:path?">
-          <AdminLayout>
+        <Route exact path="/admin/:path?/:path?/:path?" >
+          <AdminLayout >
             <Switch>
               <AdminRoute exact path="/admin">
                 <Home {...props} />
@@ -70,7 +70,7 @@ const Routes = (props) => {
           </AdminLayout>
         </Route>
         <Route>
-          <WebsiteLayout>
+          <WebsiteLayout >
             <Switch>
               <Route exact path="/">
                 <Home {...props} />
@@ -85,8 +85,11 @@ const Routes = (props) => {
                 <Signin />
               </Route>
             </Switch>
+            
           </WebsiteLayout>
+        
         </Route>
+        
       </Switch>
     </Router>
   );

@@ -14,7 +14,7 @@ const AddFormProduct = (props) => {
       id: uuidv4(),
       ...data
     };
-    history.push("/");
+    history.push("/admin");
     console.log(fakeValue);
     props.onAdd(fakeValue);
   };

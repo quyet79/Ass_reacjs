@@ -17,6 +17,10 @@ const Header = () => {
       // nếu pathname thay đổi (!= signin) và đã đăng nhập
       return (
         <>
+        <h4 style={{color: "white"}}>Mail Client:</h4>
+        <Link><h4 style={{color: "white"}}>
+          {email}
+        </h4></Link>
           <Link
             className="btn btn-outline-success ms-1"
             style={{ cursor: "pointer" }}

@@ -36,7 +36,7 @@ const EditFormProduct = (props) => {
 
     props.onEdit(fakeValue);
     console.log(fakeValue);
-    history.push("/");
+    history.push("/admin");
   };
 
   const confirm = (value) => {
